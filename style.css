@@ -1,0 +1,44 @@
+body{
+    background-color: lightgrey;
+        }
+
+
+        th, td {
+          border: 1px solid black;
+          border-radius: 10px;
+          background-color: white;
+        }
+
+
+        div.one{
+            position: relative;
+            
+        }
+        
+        
+        div.two{
+            overflow: scroll;
+            height: 200px;
+        }
+
+        #head1{
+            background-color: aqua;
+        }
+
+        table.one{
+            overflow: scroll;
+            
+        }
+
+/*Geo*/ 
+
+iframe{
+  background-color:white;
+  position: relative;
+  height: 350px, auto;
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+  
+
+}
