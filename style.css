@@ -1,44 +1,83 @@
-body{
-    background-color: lightgrey;
-        }
+body {
+  background-color: blue;
+  position: relative;
+}
 
 
-        th, td {
-          border: 1px solid black;
-          border-radius: 10px;
-          background-color: white;
-        }
+div.parent{ 
+  
+  display:table;
+  padding:5px; 
+  width:100%;
+  margin:5px 0;
+  position: relative;
+}
+div.text{ 
+  vertical-align:middle;
+  display:table-cell;
+  text-align:justify;
+}
+div.parent .img{
+  vertical-align:middle;
+  display:table-cell;
+  padding-right:5px;
+  width:50px; 
+}
+div.img img{ 
+  width:100%;
+  height:50px; 
+  vertical-align:middle;
+}
 
 
-        div.one{
-            position: relative;
-            
-        }
-        
-        
-        div.two{
-            overflow: scroll;
-            height: 200px;
-        }
+h6{
+  opacity: 0.7;
+  text-align: center;
+  color: black;
+}
 
-        #head1{
-            background-color: aqua;
-        }
+th,
+td {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
 
-        table.one{
-            overflow: scroll;
-            
-        }
+.one {
+  position: relative;
 
-/*Geo*/ 
+}
 
-iframe{
-  background-color:white;
+#head1 {
+  background-color: aqua;
+}
+
+table.one {
+  overflow: scroll;
+  height: 200px;
+}
+
+form{
+  height: 120px;
+  width: 100%;
+}
+
+/*Geo*/
+
+iframe {
+  background-color: white;
   position: relative;
   height: 350px, auto;
   border-radius: 10px;
   width: 100%;
   overflow: hidden;
-  
+}
 
+.facebook{
+  background-color: white;
+  position: relative;
+  height: 100%;
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
 }

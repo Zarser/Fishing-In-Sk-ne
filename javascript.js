@@ -1,19 +1,13 @@
-function calc()
-{  
 
-    var längd = (document.getElementsByClassName("Lä").value);
-    var vikt = (document.getElementsByClassName("Vi").value);
+    var Längd = document.getElementsById("Längd").value;
+    var Vikt = document.getElementsById("Vikt").value;
     
-if (längd>0&vikt>0);
-				fultonform.getElementById("Submit").value=(vikt*100)/(längd*längd*längd);
+    function calc ()
+    {
+        var Längd = parseInt(Längd.value);
+        var Vikt = parseInt(Vikt.value);
 
 
-
-
-
-
-
-
-
-
-
+if (Längd>0&Vikt>0);
+				document.getElementById("Submit").value=(Vikt*100)/(Längd*Längd*Längd);
+    }

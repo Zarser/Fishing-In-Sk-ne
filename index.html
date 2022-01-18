@@ -1,117 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
 
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-   crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
 
-   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-   crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
 
 </head>
 <body>
-<h2>HÖ Appen!</h2>
+    <table>
+    <th>
+        <div class="parent">
+            <div class="img"><img src="fish.png" /></div>
+            <div class="text">Verktygslådan för Havsöringfiskaren!</div>
+            <div class="img"><img src="fish.png" /></div>
+        </div>
+    </th>
+    </table>
     <div class="one">
-    <div class="two">
-<table>
-    <tr>
-        <td>
-            <script>
-                var yrd = new Date();
-                var yrstr = yrd.getMonth()+""+yrd.getDate()+""+yrd.getHours();
-                var yruri = "https://sevader.se/widget/1/856/2/1/1/1/8c235.js?tmp=" + yrstr;
-                document.write("<sc"+"ript src='"+yruri+"'></sc"+"ript>");
-                </script>
-        </td>
-        <td>
+        <div class="two">
+            <table>
+                <td>
 
-            <div class="sv-vertical sv-layout sv-template-layout" id="svid10_3b63ec651740ce15990aed5">
-                <div id="svid94_5b07be29168ba461a9844812" class="pagecontent sv-layout">
-                    <div id="Mittenspalt"><!-- Mittenspalt --></div>
-                    <div class="sv-text-portlet sv-use-margins sv-skip-spacer" id="svid12_2d8ba9d11771b9c7b258e50">
-                        <div id="Text"><!-- Text --></div>
-                        <div class="sv-text-portlet-content">
-                            <h2 class="subheading" id="h-Aktuellbadtemperatur">Aktuell vattentemperatur</h2>
-                        </div>
-                    </div>
-
-
-
-            <div class="sv-script-portlet sv-portlet divArtTable sv-decoration-Tabell" id="svid12_5b07be29168ba461a9844816">
-                <div id="Skript"><!-- Skript --></div>
-                <table class="env-table env-table--zebra tb-article-head tb-article-head-fritid-color">
-                    <tbody>
+                    <table class="one">
                         <tr>
-                            <th id="head11">Plats</th>
-                            <th id="head13">Vatten</th>
-                            <th id="head14">Luft</th>
+                            <td>
+                                <script>
+                                    var yrd = new Date();
+                                    var yrstr = yrd.getMonth() + "" + yrd.getDate() + "" + yrd.getHours();
+                                    var yruri = "https://sevader.se/widget/1/856/2/1/1/1/8c235.js?tmp=" + yrstr;
+                                    document.write("<sc" + "ript src='" + yruri + "'></sc" + "ript>");
+                                </script>
+                            </td>
+                            <td>
+
+                                <div class="sv-vertical sv-layout sv-template-layout"
+                                    id="svid10_3b63ec651740ce15990aed5">
+                                    <div id="svid94_5b07be29168ba461a9844812" class="pagecontent sv-layout">
+                                        <div id="Mittenspalt">
+                                            <!-- Mittenspalt -->
+                                        </div>
+                                        <div class="sv-text-portlet sv-use-margins sv-skip-spacer"
+                                            id="svid12_2d8ba9d11771b9c7b258e50">
+                                            <div id="Text">
+                                                <!-- Text -->
+                                            </div>
+                                            <div class="sv-text-portlet-content">
+                                                <h2 class="subheading" id="h-Aktuellbadtemperatur">Aktuell
+                                                    vattentemperatur</h2>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="sv-script-portlet sv-portlet divArtTable sv-decoration-Tabell"
+                                            id="svid12_5b07be29168ba461a9844816">
+                                            <div id="Skript">
+                                                <!-- Skript -->
+                                            </div>
+                                            <table
+                                                class="env-table env-table--zebra tb-article-head tb-article-head-fritid-color">
+                                                <tbody>
+                                                    <tr>
+                                                        <th id="head11">Plats</th>
+                                                        <th id="head13">Vatten</th>
+                                                        <th id="head14">Luft</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Torekovs strand, <b>Båstad</b></td>
+                                                        <td id="head1" headers="head13">3.8 ℃</td>
+                                                        <td id="head1" headers="head14">3.5 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Råbocka, <b>Ängel&#xAD;holm</b></td>
+                                                        <td id="head1" headers="head13">3.3 ℃</td>
+                                                        <td id="head1" headers="head14">2.5 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Kvick&#xAD;badet, <b>Höga&#xAD;näs</b></td>
+                                                        <td id="head1" headers="head13">4 ℃</td>
+                                                        <td id="head1" headers="head14">2.9 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Fria bad, <b>Helsing&#xAD;borg</b></td>
+                                                        <td id="head1" headers="head13">4.1 ℃</td>
+                                                        <td id="head1" headers="head14">3.3 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Borsta&#xAD;husen, piren,
+                                                            <b>Lands&#xAD;krona</b></td>
+                                                        <td id="head1" headers="head13">4.7 ℃</td>
+                                                        <td id="head1" headers="head14">2.0 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Barse&#xAD;bäck&#xAD;strand,
+                                                            <b>Käv&#xAD;linge</b></td>
+                                                        <td id="head1" headers="head13">4.1 ℃</td>
+                                                        <td id="head1" headers="head14">2.3 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Lomma norra, <b>Lomma</b></td>
+                                                        <td id="head1" headers="head13">4.1 ℃</td>
+                                                        <td id="head1" headers="head14">2.5 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Ribers&#xAD;borg, Kall&#xAD;bad&#xAD;huset,
+                                                            <b>Malmö</b></td>
+                                                        <td id="head1" headers="head13">4.2 ℃</td>
+                                                        <td id="head1" headers="head14">4.6 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Falster&#xAD;bo strand,
+                                                            <b>Vell&#xAD;inge</b></td>
+                                                        <td id="head1" headers="head13">3.9 ℃</td>
+                                                        <td id="head1" headers="head14">2.3 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Saltsjö&#xAD;baden, <b>Ystad</b></td>
+                                                        <td id="head1" headers="head13">5 ℃</td>
+                                                        <td id="head1" headers="head14">2.3 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Rörum, <b>Simris&#xAD;hamn</b></td>
+                                                        <td id="head1" headers="head13">4.4 ℃</td>
+                                                        <td id="head1" headers="head14">2.2 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Yngsjö havsbad, <b>Kristian&#xAD;stad</b>
+                                                        </td>
+                                                        <td id="head1" headers="head13">5.6 ℃</td>
+                                                        <td id="head1" headers="head14">1.3 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Sand&#xAD;viken, <b>Sölves&#xAD;borg</b>
+                                                        </td>
+                                                        <td id="head1" headers="head13">4.8 ℃</td>
+                                                        <td id="head1" headers="head14">1.5 ℃</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="head11">Trumme&#xAD;näs, <b>Karls&#xAD;krona</b>
+                                                        </td>
+                                                        <td id="head1" headers="head13">3.7 ℃</td>
+                                                        <td id="head1" headers="head14">1.2 ℃</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                            </td>
                         </tr>
-            <tr><td headers="head11">Torekovs strand, <b>Båstad</b></td><td id="head1" headers="head13">3.8 ℃</td><td id="head1" headers="head14">3.5 ℃</td></tr>
-            <tr><td headers="head11">Råbocka, <b>Ängel&#xAD;holm</b></td><td id="head1" headers="head13">3.3 ℃</td><td id="head1" headers="head14">2.5 ℃</td></tr>
-            <tr><td headers="head11">Kvick&#xAD;badet, <b>Höga&#xAD;näs</b></td><td id="head1" headers="head13">4 ℃</td><td id="head1" headers="head14">2.9 ℃</td></tr>
-            <tr><td headers="head11">Fria bad, <b>Helsing&#xAD;borg</b></td><td id="head1" headers="head13">4.1 ℃</td><td id="head1" headers="head14">3.3 ℃</td></tr>
-            <tr><td headers="head11">Borsta&#xAD;husen, piren, <b>Lands&#xAD;krona</b></td><td id="head1" headers="head13">4.7 ℃</td><td id="head1" headers="head14">2.0 ℃</td></tr>
-            <tr><td headers="head11">Barse&#xAD;bäck&#xAD;strand, <b>Käv&#xAD;linge</b></td><td id="head1" headers="head13">4.1 ℃</td><td id="head1" headers="head14">2.3 ℃</td></tr>
-            <tr><td headers="head11">Lomma norra, <b>Lomma</b></td><td id="head1" headers="head13">4.1 ℃</td><td id="head1" headers="head14">2.5 ℃</td></tr>
-            <tr><td headers="head11">Ribers&#xAD;borg, Kall&#xAD;bad&#xAD;huset, <b>Malmö</b></td><td id="head1" headers="head13">4.2 ℃</td><td id="head1" headers="head14">4.6 ℃</td></tr>
-            <tr><td headers="head11">Falster&#xAD;bo strand, <b>Vell&#xAD;inge</b></td><td id="head1" headers="head13">3.9 ℃</td><td id="head1" headers="head14">2.3 ℃</td></tr>
-            <tr><td headers="head11">Saltsjö&#xAD;baden, <b>Ystad</b></td><td id="head1" headers="head13">5 ℃</td><td id="head1" headers="head14">2.3 ℃</td></tr>
-            <tr><td headers="head11">Rörum, <b>Simris&#xAD;hamn</b></td><td id="head1" headers="head13">4.4 ℃</td><td id="head1" headers="head14">2.2 ℃</td></tr>
-            <tr><td headers="head11">Yngsjö havsbad, <b>Kristian&#xAD;stad</b></td><td id="head1" headers="head13">5.6 ℃</td><td id="head1" headers="head14">1.3 ℃</td></tr>
-            <tr><td headers="head11">Sand&#xAD;viken, <b>Sölves&#xAD;borg</b></td><td id="head1" headers="head13">4.8 ℃</td><td id="head1" headers="head14">1.5 ℃</td></tr>
-            <tr><td headers="head11">Trumme&#xAD;näs, <b>Karls&#xAD;krona</b></td><td id="head1" headers="head13">3.7 ℃</td><td id="head1" headers="head14">1.2 ℃</td></tr>
-            </tbody> 
+                    </table>
+                </td>
+            </table>
+            <br>
+        </div>
+        <table style="width: 100%;">
+            <td>
+                <iframe
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=12.696134448051453%2C56.03739256088498%2C12.700613737106325%2C56.03871414533087&amp;layer=mapnik"
+                    style="border: 1px solid black"></iframe>
+                <br />
+                <small><a href="https://www.openstreetmap.org/#map=19/56.03805/12.69837">Visa större karta</a></small>
+            </td>
         </table>
-            </div>
-            </div>   
-        </td>
-    </tr>
-</table>
+        <br>
+        <iframe class="facebook"
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fhttps%3A%2F%2Fwww.facebook.com%2FFiskematerial&tabs=timeline&width=400&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+            style="border:none;overflow:hidden" allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+        </iframe>
+        <br>
+        <br>
+        <table style="width: 100%;">
+            <td>
+                <h1>Räkna ut Fulton!</h1>
+                <form name="fultonform">
+                    <label for="fname">Längd(CM):</label><span id="cm"></span>
+                    <input type="text" id="längd" onkeyup="total()" name="fname" class="Lä"><br><br>
+                    <label for="lname">Vikt(Gram):</label><span id="gram"></span>
+                    <input type="text" id="Vikt" onkeyup="total()" name="lname" class="Vi"><br><br>
+                    <label for="Submit">Fulton:</label>
+                    <input type="value" id="Submit" class="vbox">
+                </form>
+            </td>
+        </table>
 
-
-
-</div>
-<table style="width: 100%;">
-    <td>
-        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=12.696134448051453%2C56.03739256088498%2C12.700613737106325%2C56.03871414533087&amp;layer=mapnik" style="border: 1px solid black"></iframe>
-        <br/>
-        <small><a href="https://www.openstreetmap.org/#map=19/56.03805/12.69837">Visa större karta</a></small>
-    </td>
-</table>
-
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fhttps%3A%2F%2Fwww.facebook.com%2FFiskematerial&tabs=timeline&width=400&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
-style="border:none;overflow:hidden" 
-allowfullscreen="true" 
-allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-</iframe>
-
-
-
-
-
-<table style="width: 100%;">
-    <td>
-        <h1>Räkna ut Fulton!</h1>
-<form  name="fultonform">
-  <label for="fname">Längd(CM):</label><span id="cm"></span>
-  <input type="text" id="längd" name="fname" class="Lä"><br><br>
-  <label for="lname">Vikt(Gram):</label><span id="gram"></span>
-  <input type="text" id="Vikt" name="lname" class="Vi"><br><br>
-  <label for="Submit">Fulton:</label>
-  <input type="value" id="Submit" class="vbox">
-</form>
-    </td>
-</table>
-
-</div>
-
+    </div>
+   <h6>© 2022 Kristoffer Hansson</h6>
 </body>
+
 </html>
