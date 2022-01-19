@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  background-color: lightblue;
   position: relative;
 }
 
@@ -29,6 +29,10 @@ div.img img{
   vertical-align:middle;
 }
 
+
+/*img links effects*/
+
+
 img.f{
   width: 30%;
   height: 30%;
@@ -43,6 +47,12 @@ img.y{
   width: 30%;
   height: 30%;
 }
+
+
+
+
+
+
 
 h2{
   text-align: center;
