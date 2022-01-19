@@ -29,6 +29,9 @@ div.img img{
   vertical-align:middle;
 }
 
+h2{
+  text-align: center;
+}
 
 h6{
   opacity: 0.7;
@@ -62,6 +65,10 @@ form{
   width: 100%;
 }
 
+.fulton{
+  height:300px;
+}
+
 /*Geo*/
 
 iframe {
@@ -74,10 +81,127 @@ iframe {
 }
 
 .facebook{
+  border: 2px solid black;
   background-color: white;
   position: relative;
-  height: 100%;
+  height: 300px;
   border-radius: 10px;
   width: 100%;
   overflow: hidden;
+}
+
+
+
+
+
+
+
+.slider::after {
+  color: black;
+  font-size: 1.5rem;
+  position: absolute;
+
+
+}
+
+
+.slider::before {
+  color: black;
+  font-size: 1rem;
+  position: absolute;
+
+}
+
+
+.slider {
+  -webkit-appearance: none;
+  width: 350px;
+  height: 25px;
+  outline: none;
+  border-radius: 3px;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 12px;
+  box-shadow: 0px 1px 10px 1px black;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 45px;
+  height: 45px;
+  background: black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+  -moz-appearance: none;
+  appearance: none;
+  width: 45px;
+  height: 45px;
+  background: black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+/* Slider1 editering */
+
+.slider1::after {
+  color: black;
+  font-size: 1.5rem;
+  position: absolute;
+
+
+}
+
+
+.slider1::before {
+  color: black;
+  font-size: 1.5rem;
+  position: absolute;
+}
+
+.slider1 {
+  -webkit-appearance: none;
+  width: 350px;
+  height: 25px;
+  outline: none;
+  border-radius: 3px;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 12px;
+  box-shadow: 0px 1px 10px 1px black;
+}
+
+.slider1:hover {
+  opacity: 1;
+}
+
+.slider1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 45px;
+  height: 45px;
+  background: black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+.slider1::-moz-range-thumb {
+  -moz-appearance: none;
+  appearance: none;
+  width: 45px;
+  height: 45px;
+  background: black;
+  cursor: pointer;
+  border-radius: 50%;
 }

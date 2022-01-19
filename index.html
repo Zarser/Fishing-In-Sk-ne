@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
+    
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
         integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -182,21 +182,24 @@
         </iframe>
         <br>
         <br>
-        <table style="width: 100%;">
+        <table class="fulton" style="width: 100%;">
             <td>
-                <h1>Räkna ut Fulton!</h1>
-                <form name="fultonform">
-                    <label for="fname">Längd(CM):</label><span id="cm"></span>
-                    <input type="text" id="längd" onkeyup="total()" name="fname" class="Lä"><br><br>
-                    <label for="lname">Vikt(Gram):</label><span id="gram"></span>
-                    <input type="text" id="Vikt" onkeyup="total()" name="lname" class="Vi"><br><br>
-                    <label for="Submit">Fulton:</label>
-                    <input type="value" id="Submit" class="vbox">
-                </form>
+                <h2>Räkna ut Fultonvärdet på Havsöring!</h2>
+                <input type="range" min="0" max="100" value="0" id="fulton" class="slider">
+        <p>Längd(cm):<span id="längd"></span>
+            <input type="number" id="värdelängd" class="input-längd" value="0"></p>
+        <!-- Value = längd -->
+        <br>
+        <input type="range" min="0" max="10000" value="0" id="fulton1" class="slider1">
+        <p>Vikt(gram):<span id="vikt"></span>
+            <input type="number" id="värdevikt" class="input-vikt" value="0"></p>
+        <!-- Value = vikt -->
+    <p>Fultonvärde:<span id="Fultonvärde" class="Fultonvärde"></span></p>
+    <input type="text" id="värde">
+    <br>
             </td>
         </table>
-
-    </div>
+        <script src="javascript.js"></script>
    <h6>© 2022 Kristoffer Hansson</h6>
 </body>
 
