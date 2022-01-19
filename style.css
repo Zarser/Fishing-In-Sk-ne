@@ -32,6 +32,18 @@ div.img img{
 
 /*img links effects*/
 
+img.sv{
+  width: 15%;
+  height: 15%;
+}
+img.en{
+  width: 15%;
+  height: 15%;
+}
+
+
+
+
 
 img.f{
   width: 30%;
