@@ -29,6 +29,21 @@ div.img img{
   vertical-align:middle;
 }
 
+img.f{
+  width: 30%;
+  height: 30%;
+}
+
+img.i{
+  width: 30%;
+  height: 30%;
+}
+
+img.y{
+  width: 30%;
+  height: 30%;
+}
+
 h2{
   text-align: center;
 }
