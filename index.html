@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/slider.css">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
         integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -16,63 +18,19 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
-
 </head>
 <body>
+    <div id="navbar">
+        <a href="#">Start</a>
+        <a href="https://www.ifiske.se">Fiskekort</a>
+        <a href="Mejlform.html">Kontakta</a>
+        <a href="index.html">SV</a>
+        <a>|</a>
+        <a href="IndexEn.html">EN</a>      
+      </div>
+      <br>
+      <br>
     <div class="bg">
-    <table>
-        <tr><a href="index.html"><img src="img/sv.png" class="sv"></a></tr>
-        <tr><a href="IndexEn.html"><img src="img/en.png" class="en"></a></tr>
-        <tr>
-            <div id="m-booked-prime-97228">
-                <div class="booked-wzsp-prime-in">
-                    <div class="booked-wzsp-prime-data">
-                        <div class="booked-wzsp-prime-img wt22"></div>
-                        <div class="booked-wzsp-day-val">
-                            <div class="booked-wzsp-day-number">-2</div>
-                            <div class="booked-wzsp-day-dergee">
-                                <div class="booked-wzsp-day-dergee-val">&deg;</div>
-                                <div class="booked-wzsp-day-dergee-name">C</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <script type="text/javascript">
-                var css_file = document.createElement("link");
-                var widgetUrl = location.href;
-                css_file.setAttribute("rel", "stylesheet");
-                css_file.setAttribute("type", "text/css");
-                css_file.setAttribute("href", 'https://s.bookcdn.com/css/w/booked-wzs-widget-prime.css?v=0.0.1');
-                document.getElementsByTagName("head")[0].appendChild(css_file);
-
-                function setWidgetData_97228(data) {
-                    if (typeof (data) != 'undefined' && data.results.length > 0) {
-                        for (var i = 0; i < data.results.length; ++i) {
-                            var objMainBlock = document.getElementById('m-booked-prime-97228');
-                            if (objMainBlock !== null) {
-                                var copyBlock = document.getElementById('m-bookew-weather-copy-' + data.results[i]
-                                    .widget_type);
-                                objMainBlock.innerHTML = data.results[i].html_code;
-                                if (copyBlock !== null) objMainBlock.appendChild(copyBlock);
-                            }
-                        }
-                    } else {
-                        alert('data=undefined||data.results is empty');
-                    }
-                }
-                var widgetSrc =
-                    "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=34820;type=5;scode=124;ltid=3457;domid=577;anc_id=9264;countday=undefined;cmetric=1;wlangID=11;color=137AE9;wwidth=250;header_color=ffffff;text_color=333333;link_color=08488D;border_form=1;footer_color=ffffff;footer_text_color=333333;transparent=0;v=0.0.1";
-                widgetSrc += ';ref=' + widgetUrl;
-                widgetSrc += ';rand_id=97228';
-                var weatherBookedScript = document.createElement("script");
-                weatherBookedScript.setAttribute("type", "text/javascript");
-                weatherBookedScript.src = widgetSrc;
-                document.body.appendChild(weatherBookedScript)
-            </script>
-        </tr>
-    </table>
     <table width="100%">
         <th>
             <div class="parent">
@@ -277,8 +235,9 @@
                         class="y"></a></tr>
 
         </table>
-        <script src="javascript/javascript.js"></script>
         <h6>© 2022 Kristoffer Hansson</h6>
+        <script src="javascript/javascript.js"></script>
+        <script src="javascript/dropdown.js"></script>
 </body>
 
 </html>
