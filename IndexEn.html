@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -19,22 +19,111 @@
 
 </head>
 <body>
-    <table>  
-        <tr><a href="index.html"><img src="sv.png" class="sv"></a></tr>
-        <tr><a href="IndexEn.html"><img src="en.png" class="en"></a></tr> 
-</table>
-    <table>
+    <div class="bg">
+        <table>
+            <tr><a href="index.html"><img src="img/sv.png" class="sv"></a></tr>
+            <tr><a href="IndexEn.html"><img src="img/en.png" class="en"></a></tr>
+            <tr>
+                <div id="m-booked-prime-97228">
+                    <div class="booked-wzsp-prime-in">
+                        <div class="booked-wzsp-prime-data">
+                            <div class="booked-wzsp-prime-img wt22"></div>
+                            <div class="booked-wzsp-day-val">
+                                <div class="booked-wzsp-day-number">-2</div>
+                                <div class="booked-wzsp-day-dergee">
+                                    <div class="booked-wzsp-day-dergee-val">&deg;</div>
+                                    <div class="booked-wzsp-day-dergee-name">C</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <script type="text/javascript">
+                    var css_file = document.createElement("link");
+                    var widgetUrl = location.href;
+                    css_file.setAttribute("rel", "stylesheet");
+                    css_file.setAttribute("type", "text/css");
+                    css_file.setAttribute("href", 'https://s.bookcdn.com/css/w/booked-wzs-widget-prime.css?v=0.0.1');
+                    document.getElementsByTagName("head")[0].appendChild(css_file);
+    
+                    function setWidgetData_97228(data) {
+                        if (typeof (data) != 'undefined' && data.results.length > 0) {
+                            for (var i = 0; i < data.results.length; ++i) {
+                                var objMainBlock = document.getElementById('m-booked-prime-97228');
+                                if (objMainBlock !== null) {
+                                    var copyBlock = document.getElementById('m-bookew-weather-copy-' + data.results[i]
+                                        .widget_type);
+                                    objMainBlock.innerHTML = data.results[i].html_code;
+                                    if (copyBlock !== null) objMainBlock.appendChild(copyBlock);
+                                }
+                            }
+                        } else {
+                            alert('data=undefined||data.results is empty');
+                        }
+                    }
+                    var widgetSrc =
+                        "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=34820;type=5;scode=124;ltid=3457;domid=577;anc_id=9264;countday=undefined;cmetric=1;wlangID=11;color=137AE9;wwidth=250;header_color=ffffff;text_color=333333;link_color=08488D;border_form=1;footer_color=ffffff;footer_text_color=333333;transparent=0;v=0.0.1";
+                    widgetSrc += ';ref=' + widgetUrl;
+                    widgetSrc += ';rand_id=97228';
+                    var weatherBookedScript = document.createElement("script");
+                    weatherBookedScript.setAttribute("type", "text/javascript");
+                    weatherBookedScript.src = widgetSrc;
+                    document.body.appendChild(weatherBookedScript)
+                </script>
+            </tr>
+        </table>
+        <table width="100%">
     <th>
         <div class="parent">
-            <div class="img"><img src="fish.png" /></div>
-            <div class="text">The toolbox for the Seatroutfisher!</div>
-            <div class="img"><img src="fish.png" /></div>
+            <div class="img"><img src="img/fish.png" /></div>
+            <div class="text">The toolbox for the Seatroutfisher</div>
+            <div class="img"><img src="img/fish.png" /></div>
         </div>
     </th>
     </table>
+    <h2>Fishing Locations</h2>
+    <table width="100%">
+        <td>
+
+
+            <div class="slideshow-container">
+
+                <div class="mySlides">
+                    <a href="https://goo.gl/maps/Y4QtRcgDZ6F2PxBy7"><img class="gra" src="img/gralage.jpg" width="100%"
+                            height="200px"></a>
+                    <iframe src='https://xn--vder24-bua.se/index.php/vader-widget/?widgettype=white&widgetcity=viken'
+                        title='Väderwidget' style='height:250px; min-width:215px; width:100%; max-width:100%;'
+                        name='weatheriFrame' scrolling='0' frameborder='0'></iframe>
+                </div>
+
+                <div class="mySlides">
+                    <a href="https://goo.gl/maps/3R7bTtVc3sAeWFjA7"><img class="ler" src="img/lernacken.jpg"
+                            width="100%" height="200px"></a>
+                    <iframe src='https://xn--vder24-bua.se/index.php/vader-widget/?widgettype=white&widgetcity=malmö'
+                        title='Väderwidget' style='height:250px; min-width:215px; width:100%; max-width:100%;'
+                        name='weatheriFrame' scrolling='0' frameborder='0'></iframe>
+                </div>
+
+                <div class="mySlides">
+                    <a href="https://goo.gl/maps/yTXXiLitRnkJ8UP98"><img class="al" src="img/alabod.jpg" width="100%"
+                            height="200px"></a>
+                    <iframe src='https://xn--vder24-bua.se/index.php/vader-widget/?widgettype=white&widgetcity=glumslöv'
+                        title='Väderwidget' style='height:250px; min-width:215px; width:100%; max-width:100%;'
+                        name='weatheriFrame' scrolling='0' frameborder='0'></iframe>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </td>
+    </table>
+    <br>
     <table class="fulton" style="width: 100%;">
         <td>
-            <h2>Calculate Fulton of Seatrout!</h2>
+            <h2>Calculate Fulton of Seatrout</h2>
             <input type="range" min="0" max="120" value="0" id="fulton" class="slider">
     <p>Length(cm):<span id="längd"></span>
         <input type="number" id="värdelängd" class="input-längd" value="0"></p>
@@ -62,49 +151,13 @@
 <br>
         </td>
     </table>
+    <br>
     <div class="one">
-        <div class="two">
-            <table>
-                <td>
-
+                <table width="100%">
+                  <td>
                     <table class="one">
                         <tr>
-                            <td>
-                                <script>
-                                    var yrd = new Date();
-                                    var yrstr = yrd.getMonth() + "" + yrd.getDate() + "" + yrd.getHours();
-                                    var yruri = "https://sevader.se/widget/1/856/2/1/1/1/8c235.js?tmp=" + yrstr;
-                                    document.write("<sc" + "ript src='" + yruri + "'></sc" + "ript>");
-                                </script>
-                            </td>
-                            <td>
-
-                                <div class="sv-vertical sv-layout sv-template-layout"
-                                    id="svid10_3b63ec651740ce15990aed5">
-                                    <div id="svid94_5b07be29168ba461a9844812" class="pagecontent sv-layout">
-                                        <div id="Mittenspalt">
-                                            <!-- Mittenspalt -->
-                                        </div>
-                                        <div class="sv-text-portlet sv-use-margins sv-skip-spacer"
-                                            id="svid12_2d8ba9d11771b9c7b258e50">
-                                            <div id="Text">
-                                                <!-- Text -->
-                                            </div>
-                                            <div class="sv-text-portlet-content">
-                                                <h2 class="subheading" id="h-Aktuellbadtemperatur">Current water temperature</h2>
-                                            </div>
-                                        </div>
-
-
-
-                                        <div class="sv-script-portlet sv-portlet divArtTable sv-decoration-Tabell"
-                                            id="svid12_5b07be29168ba461a9844816">
-                                            <div id="Skript">
-                                                <!-- Skript -->
-                                            </div>
-                                            <table
-                                                class="env-table env-table--zebra tb-article-head tb-article-head-fritid-color">
-                                                <tbody>
+                                                <h2>Current water temperature</h2>
                                                     <tr>
                                                         <th id="head11">Location</th>
                                                         <th id="head13">Water</th>
@@ -187,9 +240,9 @@
                                                         <td id="head1" headers="head13">3.7 ℃</td>
                                                         <td id="head1" headers="head14">1.2 ℃</td>
                                                     </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                                
+                                            
+                                        
                                     </div>
                             </td>
                         </tr>
@@ -197,7 +250,6 @@
                 </td>
             </table>
             <br>
-        </div>
         <table style="width: 100%;">
             <td>
                 <iframe
@@ -217,12 +269,12 @@
         <br>
         <table>
             
-                <tr><a href="https://www.https://www.facebook.com/Fiskematerial"><img src="facebook.png" class="f"></a></tr>
-                <tr><a href="https://www.instagram.com/jahnkesfiske/"><img src="insta.png" class="i"></a></tr>
-                <tr><a href="https://www.youtube.com/channel/UC8axU_Om_CIkUDZVUbS_z2g"><img src="youtube.png" class="y"></a></tr>
+                <tr><a href="https://www.https://www.facebook.com/Fiskematerial"><img src="img/facebook.png" class="f"></a></tr>
+                <tr><a href="https://www.instagram.com/jahnkesfiske/"><img src="img/insta.png" class="i"></a></tr>
+                <tr><a href="https://www.youtube.com/channel/UC8axU_Om_CIkUDZVUbS_z2g"><img src="img/youtube.png" class="y"></a></tr>
             
         </table>
-        <script src="javascript.js"></script>
+        <script src="javascript/javascript.js"></script>
    <h6>© 2022 Kristoffer Hansson</h6>
 </body>
 

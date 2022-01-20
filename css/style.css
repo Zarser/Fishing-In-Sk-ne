@@ -4,30 +4,25 @@ body {
 }
 
 
-
-
 div.parent{ 
-
+  
   display:table;
   padding:5px; 
   width:100%;
   margin:5px 0;
   position: relative;
 }
-
 div.text{ 
   vertical-align:middle;
   display:table-cell;
   text-align:justify;
 }
-
 div.parent .img{
   vertical-align:middle;
   display:table-cell;
   padding-right:5px;
   width:50px; 
 }
-
 div.img img{ 
   width:100%;
   height:50px; 
@@ -65,7 +60,7 @@ img.y{
   height: 30%;
 }
 
-/* img end*/
+
 
 
 
@@ -86,6 +81,11 @@ td {
   border: 2px solid black;
   border-radius: 10px;
   background-color: white;
+}
+
+.one {
+  position: relative;
+
 }
 
 #head1 {
@@ -116,9 +116,6 @@ iframe {
   width: 100%;
   overflow: hidden;
 }
-
-/* geo end */
-
 
 .facebook{
   border: 2px solid black;
@@ -245,47 +242,3 @@ iframe {
   cursor: pointer;
   border-radius: 50%;
 }
-
-
-
-/* slideshow */
-
-* 
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 400px;
-  position: relative;
-  margin: auto;
-}
-/* img size */
-
-
-
-
-/* Fading animation */
-.mySliders {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}  
