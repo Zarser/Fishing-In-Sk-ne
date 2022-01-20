@@ -10,3 +10,10 @@ Will put out updates continuously.
 UPDATE V1.1
 
 Now you can choose between swedish and english language by using the flag icons at the top!
+
+UPDATE V1.2
+
+*Change some layout
+*Removed the weather beside the water temp
+*Put in a img slideshow with weather for the current location of the imgs in the slideshow
+*Put in alittle weather display on the top-left
