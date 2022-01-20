@@ -17,3 +17,12 @@ UPDATE V1.2
 *Removed the weather beside the water temp
 *Put in a img slideshow with weather for the current location of the imgs in the slideshow
 *Put in alittle weather display on the top-left
+
+
+UPDATE V1.3
+
+*Removed the icon flags at the top
+*Removed to weather at the top
+*Put in a nice transperent menu at the top
+*Added contact form
+*Added link for fishing licens
