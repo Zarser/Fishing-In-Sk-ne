@@ -3,15 +3,16 @@ body {
   position: relative;
 }
 
+/*
 img.sv{
-  width: 13%;
-  height: 13%;
+  width: 8%;
+  height: 8%;
 }
 img.en{
   width: 13%;
   height: 13%;
 }
-
+*/
 
 div.parent{ 
   
@@ -55,7 +56,6 @@ img.y{
   width: 30%;
   height: 30%;
 }
-
 
 
 
