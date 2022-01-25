@@ -26,3 +26,11 @@ UPDATE V1.3
 *Put in a nice transperent menu at the top
 *Added contact form
 *Added link for fishing licens
+
+
+UPDATE V1.4
+*Change the menu:
+Colors
+font size
+contex
+size
