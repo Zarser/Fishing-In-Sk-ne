@@ -34,3 +34,9 @@ Colors
 font size
 contex
 size
+
+
+UPDATE V1.5
+Big update, cause i change the layout, structure.
+Put in alot of new info.
+More css and javascript.
