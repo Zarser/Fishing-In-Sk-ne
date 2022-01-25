@@ -1,27 +1,53 @@
 body {
   background-color: lightblue;
+  background-repeat: no-repeat;
   position: relative;
+  font-family: 'Atma';
 }
 
-/*
+
+img.logo{
+  width: 350px;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+img.sli {
+  border-top-right-radius: 10px 10px;
+  border-top-left-radius: 10px 10px;
+  width: 100%;
+  height: 200px;
+}
+
 img.sv{
   width: 8%;
   height: 8%;
 }
 img.en{
-  width: 13%;
-  height: 13%;
+  width: 8%;
+  height: 8%;
 }
-*/
+
+#inline{
+  display: inline;
+}
 
 div.parent{ 
-  
-  display:table;
-  padding:5px; 
   width:100%;
-  margin:5px 0;
   position: relative;
+  background-color: white;
+  border-radius: 10px;
 }
+
+div.vader{
+  margin: auto;
+  width: 50%;
+}
+
+
 div.text{ 
   vertical-align:middle;
   display:table-cell;
@@ -39,6 +65,11 @@ div.img img{
   /*vertical-align:middle;*/
 }
 
+#slideshow1{
+ /* border-top-right-radius: 10px 10px;
+  border-top-left-radius: 10px 10px;*/
+  border-radius: 10px;
+}
 
 
 
@@ -62,6 +93,7 @@ img.y{
 
 
 
+
 h2{
   text-align: center;
 }
@@ -72,26 +104,6 @@ h6{
   color: black;
 }
 
-th,
-td {
-  border: 2px solid black;
-  border-radius: 10px;
-  background-color: white;
-}
-
-.one {
-  position: relative;
-
-}
-
-#head1 {
-  background-color: aqua;
-}
-
-table.one {
-  overflow: scroll;
-  height: 200px;
-}
 
 form{
   height: 120px;
@@ -99,13 +111,13 @@ form{
 }
 
 .fulton{
-  height:300px;
+  width: 100%;
+  height:295px;
 }
 
 /*Geo*/
 
-iframe {
-  background-color: white;
+#map {
   position: relative;
   height: 350px, auto;
   border-radius: 10px;
@@ -113,12 +125,49 @@ iframe {
   overflow: hidden;
 }
 
+
+
 .facebook{
   border: 2px solid black;
-  background-color: white;
   position: relative;
   height: 300px;
   border-radius: 10px;
   width: 100%;
   overflow: hidden;
+}
+
+/* body {
+  font-family: Arial, sans-serif;
+  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+} 
+*/
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #06D85F;
+  margin: 80px 0;
+}
+
+
+.wrapper {
+  width:100%;
+  margin: 0 auto;
+  
+}
+
+#block1 {
+  float:left;
+  word-wrap: break-word;
+  width: 100px;
+}
+
+#block2
+{
+  float:right;
+  width: 100px;
+  word-wrap: break-word;
+  padding: 20px;
 }
