@@ -40,3 +40,6 @@ UPDATE V1.5
 Big update, cause i change the layout, structure.
 Put in alot of new info.
 More css and javascript.
+
+UPDATE V1.6
+some new info and side pages
