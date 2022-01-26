@@ -153,8 +153,8 @@ h1 {
 
 
 .wrapper {
-  width:100%;
-  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
   
 }
 
@@ -169,5 +169,13 @@ h1 {
   float:right;
   width: 100px;
   word-wrap: break-word;
-  padding: 20px;
+  padding: 15px;
+  
+}
+
+
+
+.blocka{
+  margin: 0 auto;
+  width: 50%;
 }
