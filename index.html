@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/popup.css">
     <link rel="stylesheet" href="css/img.css">
+    <link rel="stylesheet" href="css/imgslider.css">
 
 
 </head>
@@ -30,40 +31,17 @@
     <br>
     <hr>
     <h3>Upptäck</h3>
-        <div class="slideshow-container">
-            <div class="mySlides">
-                <a href="handbok.html"><img src="img/fiskehandbok.jpg" width="100%" height="200px"
-                        class="sli"></a>
-                </div>
-            <div class="mySlides">
-                <a href="https://goo.gl/maps/3R7bTtVc3sAeWFjA7"><img src="img/new.jpg" width="100%" height="200px"
-                        class="sli"></a>
-            </div>
-            <div class="mySlides">
-                <a href="https://www.sportfiskarna.se/"><img src="img/fiskev.jpg" width="100%" height="200px"
-                        class="sli"></a>
-            </div>
-            <div style="text-align:center">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-        </div>
+
+    <div class="w3-content w3-display-container">
+        <a href="handbok.html"><img class="mySlides" src="img/fiskehandbok.jpg" style="width:100%"></a>
+        <a href="ny.html"><img class="mySlides" src="img/new.jpg" style="width:100%"></a>
+        <a href="https://www.sportfiskarna.se/"><img class="mySlides" src="img/fiskev.jpg" style="width:100%"></a>
+      
+        <button class="w3-button-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
     <br>
     <br>
-    <div class="parent">
-        <div class="parent1">
-            <h2>Varför göra de krångligt?</h2>
-            <p>Här kan man hitta all den information, tips och trix för att börja fiska.</p>
-            <p>Massor av bra fiskevatten, put&take, havsfiske, små sjöar&åar.</p>
-            <p>Allt från den professonella fiskaren till nybörjaren.</p>
-            <p>Har du bara ett litet metspö eller en gardrobe full med utrustning?</p>
-            <p>Det kvittar!</p>
-            <p>Man kan ej veta alla små hallsonställen.</p>
-            <p>Det är de vi ska försöka att handhålla här till er alla.</p>
-            <p>Från en entusiast sportfiskare till er!</p>
-        </div>
-    </div>
     <br>
     <hr>
     <table>
@@ -86,7 +64,19 @@
         </th>
     </table>
     <hr>
-    <br>
+    <h2>Användbara snabblänkar</h2>
+    <hr>
+    <ul>
+        <a href="havsöring.html#kust" class="noline"><li><strong>Längs vår natursköna kust</strong>
+            <p>Det är fritt fiske längs den svenska kusten.</p></li></a>
+            <hr>
+            <a href="ny.html#rulle" class="noline"><li><strong>Haspel eller multi?</strong>
+                <p>Det finns i princip två typer av fiskerullar – haspel och multi.</p></li></a>
+                <hr>
+                <a href="handbok.html#fulton" class="noline"><li><strong>Vad är Fultonvärde</strong>
+                    <p>Fultonvärdet, eller konditionsfaktorn som detta värde även kallas.</p></li></a>
+      </ul>
+
     <br>
     <hr>
     <table>
@@ -107,7 +97,7 @@
                 </p>
                 </div>
                 <div>
-                    <a href="https://www.lansstyrelsen.se/download/18.2e0f9f621636c84402715a55/1610533648631/Fiskebest%C3%A4mmelser.pdf"><strong>Mer info här!</strong></a>
+                    <a href="https://www.lansstyrelsen.se/download/18.2e0f9f621636c84402715a55/1610533648631/Fiskebest%C3%A4mmelser.pdf"><strong>Mer info här!(ladda ner PDF)</strong></a>
                 </div>
             </div>
         </th>
@@ -127,7 +117,7 @@
     <br>
     <br>
     <hr>
-    <table>
+    <table class="bottom2">
         <tr><a href="https://www.facebook.com/groups/294235590589862"><img src="img/facebook.png" class="f"></a>
         </tr>
         <tr><a href="https://www.instagram.com/jahnkesfiske/"><img src="img/insta.png" class="i"></a></tr>
@@ -135,13 +125,8 @@
         </tr>
     </table>
     <hr>
-
+    <img src="img/logo.png" class="logo">
     <h6>© 2022 Kristoffer Hansson</h6>
-
-    
-    
-    
-
     <div id="navbar">
         <a href="#">Start</a>
         <a>■</a>
@@ -154,6 +139,7 @@
     <script src="javascript/javascript.js"></script>
     <script src="javascript/imgslide.js"></script>
     <script src="javascript/dropdown.js"></script>
+    
 </body>
 
 </html>

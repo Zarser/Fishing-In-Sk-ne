@@ -1,11 +1,11 @@
 
 #navbar {
-    background-color: rgb(121, 201, 228); /* Black background color */
-    position: fixed; /* Make it stick/fixed */
-    bottom: 0; /* Stay on top */
-    width: 96%; /* Full width */
+    background-color: rgb(121, 201, 228); 
+    position: fixed; 
+    bottom: 0; 
+    width: 96%; 
     height: 40px;
-    transition: bottom 0.7s; /* Transition effect when sliding down (and up) */
+    transition: bottom 0.7s;
     margin: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
