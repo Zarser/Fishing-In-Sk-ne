@@ -16,59 +16,32 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/img.css">
 
 
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossorigin="" />
-
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-        crossorigin=""></script>
 </head>
 
 <body>
-
-    <div id="navbar">
-        <a href="#">Start</a>
-        <a>■</a>
-        <a href="https://www.ifiske.se/fiska-i-skane-lan.htm">Fiskeplatser</a>
-        <a>■</a>
-        <a href="index.html">SV</a>
-        <a>|</a>
-        <a href="IndexEn.html">EN</a>
-    </div>
+    <a class="weatherwidget-io" href="https://forecast7.com/sv/59d4813d34/skane/" data-label_1="SKÅNE" data-label_2="Alltid fint väder för fiske!" data-icons="Climacons Animated" data-days="3" data-theme="original" data-basecolor="#add8e6" data-accent="" data-highcolor="#ff0000" data-lowcolor="#0069ff" data-suncolor="#ffb71d" data-mooncolor="#797979" data-cloudcolor="#a4a4a4" data-cloudfill="#ffffff" data-raincolor="#73adff" >SKÅNE Alltid fint väder för fiske!</a>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
     <br>
     <br>
-    <div class="parent" id="slideshow1">
+    <hr>
+    <h3>Upptäck</h3>
         <div class="slideshow-container">
             <div class="mySlides">
-                <a href="https://goo.gl/maps/Y4QtRcgDZ6F2PxBy7"><img src="img/gralage.jpg" width="100%" height="200px"
+                <a href="handbok.html"><img src="img/fiskehandbok.jpg" width="100%" height="200px"
                         class="sli"></a>
-                <div class="vader">
-                    <iframe src='https://xn--vder24-bua.se/index.php/vader-widget/?widgettype=white&widgetcity=viken'
-                        title='Väderwidget' style='height:80px;  width:220px;' name='weatheriFrame' scrolling='0'
-                        frameborder='0'></iframe>
                 </div>
+            <div class="mySlides">
+                <a href="https://goo.gl/maps/3R7bTtVc3sAeWFjA7"><img src="img/new.jpg" width="100%" height="200px"
+                        class="sli"></a>
             </div>
             <div class="mySlides">
-                <a href="https://goo.gl/maps/3R7bTtVc3sAeWFjA7"><img src="img/lernacken.jpg" width="100%" height="200px"
+                <a href="https://www.sportfiskarna.se/"><img src="img/fiskev.jpg" width="100%" height="200px"
                         class="sli"></a>
-                <div class="vader">
-                    <iframe src='https://xn--vder24-bua.se/index.php/vader-widget/?widgettype=white&widgetcity=malmö'
-                        title='Väderwidget' style='height:80px;  width:220px;' name='weatheriFrame' scrolling='0'
-                        frameborder='0'></iframe>
-                </div>
-            </div>
-            <div class="mySlides">
-                <a href="https://goo.gl/maps/yTXXiLitRnkJ8UP98"><img src="img/alabod.jpg" width="100%" height="200px"
-                        class="sli"></a>
-                <div class="vader">
-                    <iframe src='https://xn--vder24-bua.se/index.php/vader-widget/?widgettype=white&widgetcity=glumslöv'
-                        title='Väderwidget' style='height:80px;  width:220px;' name='weatheriFrame' scrolling='0'
-                        frameborder='0'></iframe>
-                </div>
             </div>
             <div style="text-align:center">
                 <span class="dot"></span>
@@ -76,12 +49,7 @@
                 <span class="dot"></span>
             </div>
         </div>
-    </div>
     <br>
-    <br>
-    <hr>
-    <img src="img/logo.png" class="logo">
-    <hr>
     <br>
     <div class="parent">
         <div class="parent1">
@@ -94,91 +62,59 @@
             <p>Man kan ej veta alla små hallsonställen.</p>
             <p>Det är de vi ska försöka att handhålla här till er alla.</p>
             <p>Från en entusiast sportfiskare till er!</p>
-
-
         </div>
     </div>
     <br>
     <hr>
     <table>
-        <th>
-        <h2>Viktigt att tänka på!</h2>
-        <div class="wrapper">
-            <div id="block1">
-                Minimimåttet för havsöring är 50 centimeter (45 centimeter på västkusten).
-                Tänk också på att det finns fredningsområden där fiske är förbjudet.
+        <th class="blocka">
+            <h2>Viktigt att tänka på!</h2>
+            <div class="wrapper">
+                <div id="block1">
+                    Minimimåttet för havsöring är 50 centimeter (45 centimeter på västkusten).
+                    Tänk också på att det finns fredningsområden där fiske är förbjudet.
+                </div>
+                <div id="block2">
+                    Du ska visa hänsyn till andra som vistas i området.
+                    Du ska fiska på ett sådant sätt att andra som fiskar inte hindras i onödan.
+                </div>
+                <div id="block2">
+                    Minimimåttet för gädda är 45 centimeter och max 90cm.
+                    Tänk också på att släppa tillbaka all fisk varsamt.
+                </div>
             </div>
-            <div id="block2">
-                Du ska visa hänsyn till andra som vistas i området. 
-                Du ska fiska på ett sådant sätt att andra som fiskar inte hindras i onödan.
-            </div>
-            <div id="block2">
-                Minimimåttet för gädda är 45 centimeter och max 90cm.
-                Tänk också på att släppa tillbaka all fisk varsamt.
-            </div>
-        </div>
         </th>
     </table>
     <hr>
     <br>
-    <div class="parent">
-        <a href="gädda.html"><h2>Gädda</h2></a>
-        <a href="gös.html"><h2>Gös</h2></a>
-        <a href="abborre.html"><h2>Abborre</h2></a>
-        <a href="havsöring.html"><h2>Havsöring</h2></a>
-        <a href="bäcköring.html"><h2>Bäcköring</h2></a>
-        <a href="havsfiske.html"><h2>Havsfiske</h2></a>
-    </div>
     <br>
     <hr>
-    <hr>
-    <br>
-    <div class="parent">
-        <h2>Vad är Fultonvärde</h2>
-        <p>Fultonvärdet, eller konditionsfaktorn som detta värde även kallas, anger tillsammans med
-            havsöringens fjäll och fenor ett mått på hur väl konditionerad fisken är.</p>
-
-        <p>En fisk med blanka och lossnade fjäll, svarta och hela fenor samt med ett fultonvärde på
-            över 1,1 anses generellt som bra.</p>
-
-        <p>Man bör dock alltid studera hur pass fet fisken är om buken innan man bestämmer sig för
-            att klubba den.</p>
-
-        <p>Vissa havsöringar har ett lågt fultonvärde på grund av sin sitt smala stjärtparti och andra
-            har ett fultonvärde på över 1,1 trots att buken kanske är lite hängig.</p>
-
-        <p>En dåligt konditionerad fisk smakar inte bra och gör sig bättre i älven och havet.</p>
-
-        <p>Återutsätt fisk varsamt och helst utan att lyfta denna ur vattnet och upp på land.</p>
-        <div class="box">
-            <a class="button" href="#popup1">Räkna ut Fultonvärde</a>
-        </div>
-
-        <div id="popup1" class="overlay">
-            <div class="popup">
-                <p><a class="close" href="#">Stäng</a></p>
-                <div class="content">
-                    <div class="parent">
-                        <table class="fulton">
-                            <td>
-                                <input type="range" min="0" max="120" value="0" id="fulton" class="slider">
-                                <p>Längd(cm):<span id="längd"></span>
-                                    <input type="number" id="värdelängd" class="input-längd" value="0"></p>
-                                <!-- Value = längd -->
-                                <br>
-                                <input type="range" min="0" max="15000" value="0" id="fulton1" class="slider1">
-                                <p>Vikt(gram):<span id="vikt"></span>
-                                    <input type="number" id="värdevikt" class="input-vikt" value="0"></p>
-                                <!-- Value = vikt -->
-                                <p>Fultonvärde:<span id="Fultonvärde" class="Fultonvärde"></span></p>
-                                <input type="text" id="värde">
-                            </td>
-                        </table>
-                    </div>
+    <table>
+        <th class="blocka">
+            <h2>Lagar, regler och fredningsområden</h2>
+            <div class="wrapper">
+                <div>
+                    <p>Fångst från fritidsfiske får inte säljas om den kommer från havet.
+                    Fångst från sjöar, vattendrag och andra inlandsvatten omfattas inte
+                    av förbudet.</p>
+                </div>
+                <div>
+                    <p>
+                    Den som bryter mot gällande fiskebestämmelser kan dömas till
+                    böter eller fängelse och fiskeredskap kan beslagtas och förverkas.
+                    Kustbevakning, polis och fisketillsynsmän bevakar att
+                    bestämmelserna efterlevs.
+                </p>
+                </div>
+                <div>
+                    <a href="https://www.lansstyrelsen.se/download/18.2e0f9f621636c84402715a55/1610533648631/Fiskebest%C3%A4mmelser.pdf"><strong>Mer info här!</strong></a>
                 </div>
             </div>
-        </div>
-    </div>
+        </th>
+    </table>
+
+    <hr>
+    <br>     
     <br>
     <br>
     <div class="parent">
@@ -199,11 +135,25 @@
         </tr>
     </table>
     <hr>
+
     <h6>© 2022 Kristoffer Hansson</h6>
 
-    <script src="javascript/dropdown.js"></script>
+    
+    
+    
+
+    <div id="navbar">
+        <a href="#">Start</a>
+        <a>■</a>
+        <a href="https://www.ifiske.se/fiska-i-skane-lan.htm">Fiskeplatser</a>
+        <a>■</a>
+        <a href="#">-</a>
+        <a>|</a>
+        <a href="#">-</a>
+    </div>
     <script src="javascript/javascript.js"></script>
-    <script src="javascript/Select.js"></script>
+    <script src="javascript/imgslide.js"></script>
+    <script src="javascript/dropdown.js"></script>
 </body>
 
 </html>

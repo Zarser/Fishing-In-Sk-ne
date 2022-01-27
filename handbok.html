@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font -->
+    <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/img.css">
+    <link rel="stylesheet" href="css/pike.css">
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+</head>
+
+<body>
+
+  <a href="index.html"><h3><- Tillbaka till första sidan</h3></a>
+  <hr>
+  <div class="pike">
+    <img src="img/handbok.jpg" alt="Norway" style="width:100%;">
+    <div class="text-block">
+      <h4>Holy Grail</h4>
+      <p>Handbok för nya fiskare likaså erfarna.</p>
+    </div>
+  </div> 
+  <div>
+   <h4>Lite Fakta om fiskarna och att fiska dem!</h4>
+   <p><a href="gädda.html"><img src="img/pike1.jpg"></a></p>
+   <p><a href="gös.html"><img src="img/zander1.jpg"></a></p>
+   <p><a href="abborre.html"><img src="img/perch1.jpg"></a></p>
+   <p><a href="havsöring.html"><img src="img/seatrout.jpg"></a></p>
+  </div>
+  <div class="parent">
+    <h2>Vad är Fultonvärde</h2>
+    <p>Fultonvärdet, eller konditionsfaktorn som detta värde även kallas, anger tillsammans med
+        havsöringens fjäll och fenor ett mått på hur väl konditionerad fisken är.</p>
+
+    <p>En fisk med blanka och lossnade fjäll, svarta och hela fenor samt med ett fultonvärde på
+        över 1,1 anses generellt som bra.</p>
+
+    <p>Man bör dock alltid studera hur pass fet fisken är om buken innan man bestämmer sig för
+        att klubba den.</p>
+
+    <p>Vissa havsöringar har ett lågt fultonvärde på grund av sin sitt smala stjärtparti och andra
+        har ett fultonvärde på över 1,1 trots att buken kanske är lite hängig.</p>
+
+    <p>En dåligt konditionerad fisk smakar inte bra och gör sig bättre i älven och havet.</p>
+
+    <p>Återutsätt fisk varsamt och helst utan att lyfta denna ur vattnet och upp på land.</p>
+    <div class="box">
+        <a class="button" href="#popup1">Räkna ut Fultonvärde</a>
+    </div>
+
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <p><a class="close" href="#">Stäng</a></p>
+            <div class="content">
+                <div class="parent">
+                    <table class="fulton">
+                        <td>
+                            <input type="range" min="0" max="120" value="0" id="fulton" class="slider">
+                            <p>Längd(cm):<span id="längd"></span>
+                                <input type="number" id="värdelängd" class="input-längd" value="0"></p>
+                            <!-- Value = längd -->
+                            <br>
+                            <input type="range" min="0" max="15000" value="0" id="fulton1" class="slider1">
+                            <p>Vikt(gram):<span id="vikt"></span>
+                                <input type="number" id="värdevikt" class="input-vikt" value="0"></p>
+                            <!-- Value = vikt -->
+                            <p>Fultonvärde:<span id="Fultonvärde" class="Fultonvärde"></span></p>
+                            <input type="text" id="värde">
+                        </td>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <hr>
+    <h6>© 2022 Kristoffer Hansson</h6>
+
+    <script src="javascript/dropdown.js"></script>
+    <script src="javascript/javascript.js"></script>
+    <script src="javascript/Select.js"></script>
+</body>
+
+</html>
