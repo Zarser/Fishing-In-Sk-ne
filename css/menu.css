@@ -7,8 +7,8 @@
     height: 40px;
     transition: bottom 0.7s;
     margin: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     display: inline-block;
     text-align: center;
     z-index: 2;

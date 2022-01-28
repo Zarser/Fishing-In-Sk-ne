@@ -10,7 +10,7 @@ div.parent{
   width:100%;
   position: relative;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 15px;
 }
 
@@ -55,7 +55,7 @@ h6{
   border: 2px solid black;
   position: relative;
   height: 300px;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 100%;
   overflow: hidden;
 }
@@ -121,7 +121,7 @@ a.noline:active {
 }
 
 a.noline {
-  line-height: 0.9;
+  line-height: 0.7;
   font-size: 12px;
 }
 li {
