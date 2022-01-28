@@ -36,17 +36,17 @@ function calc ()
 }
 
    document.getElementById('fulton').onchange = function() {
-    // console.log("Hej1");
+    console.log("Hej1");
     calc();
   };
   
   document.getElementById('fulton1').onchange = function() {
-    //console.log("Hej11");
+    console.log("Hej11");
     calc();
   };
   
 
-console.log(slider);
+
 
 
 slider.värde = function() {
@@ -62,8 +62,4 @@ slider1.värde = function() {
     
     calc();
 }
-
-
-
-// img slide start//
 
