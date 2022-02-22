@@ -23,6 +23,7 @@
     padding: 10px;
     text-decoration: none;
     font-size: 16px; 
+    font-family: sans-serif;
   }
   
   #navbar a:hover {
@@ -33,7 +34,7 @@
     background-color: rgb(121, 201, 228);
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
   }
   

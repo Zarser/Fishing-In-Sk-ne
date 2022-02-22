@@ -6,12 +6,19 @@ body {
 }
 
 
+p.slogan{
+  font-family: sans-serif;
+  font-size: large;
+  text-align:center;
+}
+
 div.parent{ 
   width:100%;
   position: relative;
   background-color: white;
   border-radius: 5px;
   font-size: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 
@@ -21,9 +28,17 @@ div.text{
   text-align:justify;
 }
 
-
-
-
+.fisk-b{
+  text-align:center;
+}
+.snabb{
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 10px;
+}
+ul{
+  text-align: center;
+}
 /*heading*/
 
 h1 {
@@ -42,7 +57,9 @@ h6{
   text-align: center;
   color: black;
 }
-
+.l-head{
+  font-size: 20px;
+}
 /* heading end*/
 
 .fulton{
@@ -121,14 +138,16 @@ a.noline:active {
 }
 
 a.noline {
-  line-height: 0.7;
+  line-height: 1;
   font-size: 12px;
+  font-family: sans-serif;
 }
 li {
   list-style-image: url(/right-arrow.svg);
   /* OR */
   list-style-type: '👉';
   padding-inline-start: 1ch;
+  
 }
 
 table.bottom2 {

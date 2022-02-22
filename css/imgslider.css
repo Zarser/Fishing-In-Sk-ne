@@ -8,6 +8,7 @@
   
   .mySlides {
     display:none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
   
   .w3-button-left,.w3-button-right{
@@ -23,6 +24,8 @@
     background-color:#4eb5f1;
     text-align:center;
     transition: all 0.2s;
+    font-size: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
     a.button3:hover{
     background-color:#4095c6;
