@@ -3,8 +3,11 @@ body {
   background-repeat: no-repeat;
   position: relative;
   font-family: 'Tahoma';
+  margin: 0 auto;
 }
-
+#ww_45f98feb9fb42{
+  padding: 0px 0px 50px 0px;
+}
 
 p.slogan{
   font-family: sans-serif;
@@ -35,6 +38,7 @@ div.text{
   background-color: white;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 10px;
+  width: 90%;
 }
 ul{
   text-align: center;
