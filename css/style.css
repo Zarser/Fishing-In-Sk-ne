@@ -1,25 +1,26 @@
 body {
-  background-color: #add8e6;
+  background-image: url("/img/kullaberg.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
   font-family: 'Tahoma';
   margin: 0 auto;
 }
-#ww_45f98feb9fb42{
-  padding: 0px 0px 50px 0px;
-}
-
 p.slogan{
   font-family: sans-serif;
   font-size: large;
   text-align:center;
+}
+.logo-slogan{
+  background-color: #add8e6;
+  border-radius: 5px;
 }
 
 div.parent{ 
   width:100%;
   position: relative;
   background-color: white;
-  border-radius: 5px;
   font-size: 15px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -42,6 +43,8 @@ div.text{
 }
 ul{
   text-align: center;
+  background-color: #add8e6;
+  border-radius: 5px;
 }
 /*heading*/
 
@@ -73,12 +76,11 @@ h6{
 
 
 .facebook{
-  border: 2px solid black;
   position: relative;
   height: 300px;
-  border-radius: 5px;
   width: 100%;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 
@@ -117,11 +119,6 @@ div.mySlides{
   height:150px;
 }
 
-table.bottom{
-  display: inline;
-}
-
-
 a.noline:link {
   text-decoration: none;
   color: black;
@@ -153,13 +150,6 @@ li {
   padding-inline-start: 1ch;
   
 }
-
-table.bottom2 {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.weatherwidget-io {
-  pointer-events: none;
-  cursor: default;
+table.bottom{
+  padding-bottom: 50px;
 }

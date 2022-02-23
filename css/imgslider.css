@@ -1,37 +1,27 @@
-.w3-content{
-padding: 0px 0px 50px 0px;
-}
-.w3-button-left{
-    float: left;
-  }
-  .w3-button-right{
-    float: right;
-  }
-  
-  .mySlides {
-    display:none;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  }
-  
-  .w3-button-left,.w3-button-right{
-    display:inline-block;
-    padding:0.3em 1.2em;
-    margin:0 0.3em 0.3em 0;
-    border-radius:2em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#FFFFFF;
-    background-color:#4eb5f1;
-    text-align:center;
-    transition: all 0.2s;
-    font-size: 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    }
-    @media all and (max-width:30em){
-    a.button3{
-    display:block;
-    margin:0.2em auto;
-    }
-  }
+
+      .swiper {
+        width: 100%;
+        
+        padding-bottom: 50px;
+      }
+      .swiper h3 {
+        text-align:center;
+        color: white;
+        background-color: #add8e6;
+        font-size: 38px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 5px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      }

@@ -63,3 +63,8 @@ slider1.värde = function() {
     calc();
 }
 
+
+
+
+
+
