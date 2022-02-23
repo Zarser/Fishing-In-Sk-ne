@@ -6,7 +6,6 @@
     background-clip: padding-box;
     text-align: center;
   }
-  
   .button {
     font-size: 1em;
     padding: 10px;
@@ -16,11 +15,6 @@
     cursor: pointer;
     transition: all 0.3s ease-out;
   }
-  
-  .button:hover {
-    background: #06D85F;
-  }
-  
   .overlay {
     position: fixed;
     top: 0;
@@ -36,7 +30,6 @@
     visibility: visible;
     opacity: 1;
   }
-  
   .popup {
     margin: 70px auto;
     padding: 20px;
@@ -46,7 +39,6 @@
     position: relative;
     transition: all 5s ease-in-out;
   }
-  
   .popup h2 {
     margin-top: 0;
     color: #333;
@@ -59,11 +51,6 @@
     font-weight: bold;
     text-decoration: none;
     color: black;
-  }
-
-
-  .popup .close:hover {
-    color: #06D85F;
   }
   .popup .content {
     max-height: 30%;

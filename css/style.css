@@ -4,8 +4,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
-  font-family: 'Tahoma';
   margin: 0 auto;
+}
+#ww_b538218934d68{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 p.slogan{
   font-family: sans-serif;
@@ -15,8 +17,8 @@ p.slogan{
 .logo-slogan{
   background-color: #add8e6;
   border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-
 div.parent{ 
   width:100%;
   position: relative;
@@ -24,14 +26,11 @@ div.parent{
   font-size: 15px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-
-
 div.text{ 
   vertical-align:middle;
   display:table-cell;
   text-align:justify;
 }
-
 .fisk-b{
   text-align:center;
 }
@@ -45,20 +44,19 @@ ul{
   text-align: center;
   background-color: #add8e6;
   border-radius: 5px;
+  padding-bottom: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 /*heading*/
-
 h1 {
   text-align: center;
   font-family: Tahoma, Arial, sans-serif;
   color: #06D85F;
   margin: 80px 0;
 }
-
 h2{
   text-align: center;
 }
-
 h6{
   opacity: 0.7;
   text-align: center;
@@ -68,13 +66,10 @@ h6{
   font-size: 20px;
 }
 /* heading end*/
-
 .fulton{
   width: 100%;
   height:295px;
 }
-
-
 .facebook{
   position: relative;
   height: 300px;
@@ -82,62 +77,46 @@ h6{
   overflow: hidden;
   border-radius: 5px;
 }
-
-
-
 .wrapper {
   max-width: 400px;
   width: 100%;
   font-size: 12px;
-  word-wrap: break-word;
-  
+  word-wrap: break-word; 
 }
-
 #block1 {
   float:left;
   word-wrap: break-word;
   width: 100px;
 }
-
 #block2
 {
   float:right;
   width: 100px;
   word-wrap: break-word;
-  padding: 5px;
-
-  
+  padding: 5px; 
 }
-
 .blocka{
   margin: 0 auto;
   width: 50%;
 }
-
-
 div.mySlides{
   height:150px;
 }
-
 a.noline:link {
   text-decoration: none;
   color: black;
 }
-
 a.noline:visited {
   text-decoration: none;
   color: black;
 }
-
 a.noline:hover {
   text-decoration: none;
 }
-
 a.noline:active {
   text-decoration: none;
   color: black;
 }
-
 a.noline {
   line-height: 1;
   font-size: 12px;
