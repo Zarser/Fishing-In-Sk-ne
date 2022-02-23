@@ -1,4 +1,3 @@
-
 var slider = document.getElementById("fulton");
 var output = document.getElementById("längd");
 var inputbox = document.getElementById("värdelängd");
