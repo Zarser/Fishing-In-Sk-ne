@@ -9,6 +9,7 @@
     margin: 0;
     display: inline-block;
     text-align: center;
+    padding-bottom: 15px;
     z-index: 2;
   }
   /* Style the navbar links */
@@ -16,7 +17,9 @@
     display: inline-block;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
     text-decoration: none;
     font-size: 14px; 
     font-family: sans-serif;

@@ -1,5 +1,5 @@
 body {
-  background-image: url("/img/kullaberg.jpg");
+  background-image: url("./img/kullaberg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -132,8 +132,6 @@ a.noline {
   font-family: sans-serif;
 }
 li {
-  list-style-image: url(/right-arrow.svg);
-  /* OR */
   list-style-type: '👉';
   padding-inline-start: 1ch;
   
